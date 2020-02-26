@@ -1,0 +1,42 @@
+*{
+    background-color: red;
+    margin: 0em;
+}
+@media screen and (max-width:800){
+.gridWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 450px 450px 450px 100px;  
+    grid-template-areas:
+    "na he he he"
+    "s1 s1 s1 s1"
+    "s2 s2 s2 s2"
+    "s3 s3 s3 s3"
+    "fo fo fo fo"
+    ;
+}
+.header{
+    width: 100%;
+    height: 100%;
+    grid-area: he;
+}
+.buratinologga{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    grid-area: na;
+}
+.section1{
+    grid-area: s1;
+}
+.section2{
+    grid-area: s2;
+}
+.section3{
+    grid-area: s3;
+}
+.footer{
+    grid-area: fo;
+}
+}
