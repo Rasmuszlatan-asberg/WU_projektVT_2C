@@ -32,26 +32,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 90px;
     background-color: #B30B0B;
     font-family: sans-serif;
-    width: 80%;
+    width: 22.5%;
+    border-radius: 0% 0% 20% 0% ;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 .navlinks{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    position: absolute;
+    position: fixed;
     left: 0px;
-    height: 90vh;
+    height: 100vh;
     background-color: #B30B0B;
     align-items: center;
-    width: 20%;
-    top: -90vh;
-    transition: all 0.7s;
+    width: 22.5vw;
+    top: 0vh;
+    transition: all 0.5s;
+
 }
 .navactive{
-    transform: translateY(100vh);
+    transform: translateX(-22.5vw);
 }
 .navlinks li{
     list-style: none;
@@ -65,21 +70,24 @@
     font-size: 15px;
 }
 .burger div{
-    width: 25px;
-    height: 3px;
+    width: 50px;
+    height: 7px;
     background-color: white;
     margin: 5px;
     border-radius: 10%;
     transition: all 0.3s;
+    border-radius: 3px;
 }
 .toggle .line1{
-    transform: rotate(-45deg) translate(-5px, 6px);
-}
-.toggle .line2{
+    transform: translateX(-3.5vw);
     opacity: 0;
 }
+.toggle .line2{
+    transform: rotate(-180deg);
+}
 .toggle .line3{
-    transform: rotate(45deg) translate(-5px, -6px);
+    transform: translate(3.5vw);
+    opacity: 0;
 }
 
 
@@ -104,4 +112,9 @@
     color: white;
     background-color: #CD0C0C;
 }
-
+.hem{
+    margin-top: 100px;
+}
+.kontakt{
+    margin-bottom: 100px;
+}
