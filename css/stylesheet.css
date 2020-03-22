@@ -111,6 +111,7 @@
 }
 .texts1{
     margin-top: 15px;
+    font-family: 'Sen', sans-serif;
 }
 .snyggscen{
     width: 100%;
@@ -130,15 +131,75 @@
     font-family: 'Sen', sans-serif;
 
 }
+.projektortext{
+    margin: 15px;
+    margin-top: 60px;
+}
+.textjävel{
+    margin: 30px;
+    font-weight: 'Sen', sans-serif;
+}
+.buratinosilver{
+    margin: 15px;
+    font-family: 'Sen', sans-serif;
+    color: silver;
+}
+.buratinoguld{
+    margin: 15px;
+    font-family: 'Sen', sans-serif;
+    color: rgb(216, 188, 29);
+}
+.nyastolarna{
+    margin-top: 30px;
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+}
+.ombygg{
+    margin: 10px;
+    width: 95%;
+    height: 40%;
+    border-radius: 5px;
+}
+.showb{
+    margin: 10px;
+    width: 95%;
+    height: 70%;
+    border-radius: 5px;
+}
+.buratinogubbe{
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.textgubbe{
+    margin-top: 15px;
+}
+.ombygg2{
+    margin: 15px;
+    width: 92%;
+    height: 40%;
+    border-radius: 5px;
+}
 .swishtext{
     margin: 15px;
     margin-top: 30px;
     font-weight: 900;
 }
+.kontakt{
+    margin-top: 25px;
+}
 .swish{
     margin: 15px;
     width: 90%;
     height: 30%;
+    border-radius: 5px;
+}
+.buratinokarta{
+    margin: 10px;
+    width: 94%;
+    height: 70%;
     border-radius: 5px;
 }
 .section3{
@@ -175,9 +236,10 @@
         display: grid;
         grid: "he he he he" 
         "na na na na"
-        "se se se se";
+        "se se se se" 
+        "fo fo fo fo";
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 2vh 1vh 5vh;
+        grid-template-rows: 2fr 1fr 5fr 1fr;
         background-color: #CD0C0C;
     }
     .header{
@@ -188,6 +250,12 @@
 
     }
     .section1{
+        grid-area: se;
+    }
+    .section2{
+        grid-area: se;
+    }
+    .section3{
         grid-area: se;
     }
     
